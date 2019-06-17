@@ -3,7 +3,7 @@ dependencies = ['scipy', 'torch', 'torchvision', 'pretrainedmodels']
 from multigrain.lib import get_multigrain
 import torchvision.transforms as transforms
 import PIL
-import urllib
+import urllib.request
 
 def benchmark():
     urllib.request.urlretrieve('https://dl.fbaipublicfiles.com/multigrain/multigrain_models/joint_3BAA_0.5.pth', 'joint_3BAA_0.5.pth')
