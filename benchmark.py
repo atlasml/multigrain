@@ -2,6 +2,7 @@ dependencies = ['scipy', 'torch', 'torchvision', 'pretrainedmodels']
 
 from multigrain.lib import get_multigrain
 import torchvision.transforms as transforms
+from sotabench.image_classification import imagenet
 import torch
 import PIL
 import urllib.request
